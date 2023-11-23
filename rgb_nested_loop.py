@@ -19,8 +19,7 @@ def main():
     for red in range(256):
         for green in range(256):
             for blue in range(256):
-                print("RGB ({}), ({}), ({})".format(red, green, blue))
-
+                print("RGB ({},{},{})". format(red, green, blue))
 
 if __name__ == "__main__":
     main()
